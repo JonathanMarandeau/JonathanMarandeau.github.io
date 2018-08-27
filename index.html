@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>CV Numérique Jonathan Marandeau</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Bienvenue sur mon Curriculum Vitae. Vous y trouverez tous ce qu'il faut savoir sur moi. Bonne visite" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleprogressbar.css" />
+    <link rel="stylesheet" href="stylecarousel.css" />
+  </head>
+  <body>
+    <!--Création de la navbar dans le header-->
+    <header id="top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#top">Jonathan Marandeau</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#me">Moi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Expériences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#study">Formations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="profile-page">
+      <div class="wrapper">
+          <div class="container">
+            <div class="text-center">
+            <img class="fluid photoMoiProfil" src="images/moi.png" alt="photoMoi" />
+            <div class="h1 titleName">Jonathan Marandeau</div>
+            <div class="h1 titleName">Développeur Web Junior</div>
+            <div class="h3 titleName">Apprenant E2N Pro</div>
+            <div class="text-center">
+            <a class="btn btn-hire btn-lg" href="#contact" title="N'ayez pas peur" role="button">Embauchez-moi</a>
+            <a class="btn btn-cv btn-lg" href="#" title="Mon CV Papier" role="button">CV PDF</a>
+            </div>
+            <div class="section">
+              <div class="container">
+                <div class="button-container">
+                  <a class="btn btn-round btn-lg btn-icon btn-github" href="https://github.com/JonathanMarandeau" title="Suivez-moi sur GitHub"><i class="fab fa-github"></i></a>
+                  <a class="btn btn-round btn-lg btn-icon btn-linkedIn" href="https://www.linkedin.com/in/jonathan-marandeau-0a9b7715a/" title="Suivez-moi sur LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--Section a propos de moi-->
+    <div class="section" id="me">
+      <div class="container-fluid">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="card-body">
+                <div class="h1 mt-0 title">Moi</div>
+                <p>Hello! Je suis Jonathan Marandeau. Un développeur web junior en cours d'apprentissage au centre de formation E2N.</p>
+                <p>Ayant débuté ma formation le 1 mars 2018, je vais acquérir les compétences nécessaire au developpement de sites et d'applications web à travers l'apprentissage des langages comme le HTML, CSS, JavaScript, PHP etc ...</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="card-body">
+                <div class="h1 mt-0 title">Informations</div>
+                <div class="row">
+                  <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+                  <div class="col-sm-8">25</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                  <div class="col-sm-8">jonathan.marandeau@gmail.com</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Téléphone:</strong></div>
+                  <div class="col-sm-8">06.79.57.44.54</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Adresse:</strong></div>
+                  <div class="col-sm-8">378 rue de la plaine</div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Langue:</strong></div>
+                  <div class="col-sm-8">Français, Anglais</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de la section Moi-->
+    <!--Début de la section compétences avec progressbar-->
+    <div class="section" id="skills">
+      <div class="container-fluid">
+        <div class="h2 text-center mb-4 title">Compétences Professionnels</div>
+        <div class="card">
+          <div class="card-body">
+            <div class="h4">Front-End</div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="50%"><!--Je rajoute 10% de plus pour la progress bar pour un effet visuel plus impactant-->
+                	<div class="skillbar-title" style="background: #04193a;"><span>HTML5</span></div>
+                	<div class="skillbar-bar" style="background: #0b46a3;"></div>
+                	<div class="skill-bar-percent">40%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="50%">
+                	<div class="skillbar-title" style="background: #04193a;"><span>CSS3</span></div>
+                	<div class="skillbar-bar" style="background: #0b46a3;"></div>
+                	<div class="skill-bar-percent">40%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="40%">
+                	<div class="skillbar-title" style="background: #04193a;"><span>JavaScript</span></div>
+                	<div class="skillbar-bar" style="background: #0b46a3;"></div>
+                	<div class="skill-bar-percent">30%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="40%">
+                  <div class="skillbar-title" style="background: #04193a;"><span>jQuery</span></div>
+                  <div class="skillbar-bar" style="background: #0b46a3;"></div>
+                  <div class="skill-bar-percent">30%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="50%">
+                	<div class="skillbar-title" style="background: #04193a;"><span>Bootstrap</span></div>
+                	<div class="skillbar-bar" style="background: #0b46a3;"></div>
+                	<div class="skill-bar-percent">40%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="30%">
+                	<div class="skillbar-title" style="background: #04193a;"><span>AngularJS</span></div>
+                	<div class="skillbar-bar" style="background: #0b46a3;"></div>
+                	<div class="skill-bar-percent">10%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+            </div>
+              <div class="h4">Systèmes d'exploitations</div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="80%">
+                	<div class="skillbar-title" style="background: #04193a;"><span>Windows</span></div>
+                	<div class="skillbar-bar" style="background: #0b46a3;"></div>
+                	<div class="skill-bar-percent">70%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+              <div class="col-md-6">
+                <div class="skillbar clearfix " data-percent="80%">
+                	<div class="skillbar-title" style="background: #04193a;"><span>Ubuntu</span></div>
+                	<div class="skillbar-bar" style="background: #0b46a3;"></div>
+                	<div class="skill-bar-percent">70%</div>
+                </div> <!-- End Skill Bar -->
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <!--Fin de la section compétences-->
+        <!--Section experience-->
+        <div class="section" id="experience">
+        <div class="container-fluid cc-experience">
+        <div class="h2 text-center mb-4 title">Expériences</div>
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card-body cc-experience-header">
+                <p>Septembre 2015 - Février 2018</p>
+                <div class="h5">InterSport</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <div class="h5">Conseiller Cycle</div>
+                <p>A travers ce poste, j'ai été amené a effectuer une multitude de tâches comme le conseil auprès des clients qui en avaient besoin, effectuer du fascing, m'occupper du réapprovisionnement du rayon, faire la prise en charge des vélos déposés par les clients et effectuer les réparations nécessaires sur ceux-ci. Ce métier ma beaucoup apporter en termes de compétences techniques dans ce domaine et énormément au niveau de l'autonomie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card-body cc-experience-header">
+                <p>Avril 2014 -  Aout 2015</p>
+                <div class="h5">Decathlon</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <div class="h5">Conseiller Sports Collectifs</div>
+                <p>Ce fut ma première expèrience "longue durée". Au seins d'un rayon que j'apprécie particulièrement étant donné que les sports collectifs sont des sports que j'apprécie énormement (surtout le foot). Ca a été une base très solide pour la suite car cette expérience ma permis d'acquérir les bases du métier que j'ai exercé pendant quasiment 4 ans. L'école Decathlon est assez formatrice car elle laisse beaucoup d'autonomie tout en étant encadré par son responsable de rayon.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card-body cc-experience-header">
+                <p>Decembre 2013 - Juin 2014</p>
+                <div class="h5">Decathlon</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <div class="h5">Stage de BTS MUC Projet de Développement</div>
+                <p>Pendant ce stage, j'ai été amené a développer un projet pour le passage de mon épreuve final pour l'obtention de mon BTS. Le projet été de développer la relation avec les clubs de football présent dans la zone de chalandise. J'ai effectué une multitude de tâches comme le phoning, la création d'une base de données, un diagnostique interne et externe des choix possibles, la mise en place d'une solution et une analyse des répercussions à moyen termes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <!--Fin de la section expériences-->
+        <!--Début de la section Formations-->
+        <div class="section" id="study">
+        <div class="container-fluid cc-education">
+        <div class="h2 text-center mb-4 title">Formations</div>
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card-body cc-education-header">
+                <p>2012 - 2014</p>
+                <div class="h5">BTS Management Des Unités Commerciales</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <div class="h5">BTS MUC</div>
+                <p class="category">Lycée Jules Uhry, Creil, France</p>
+                <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card-body cc-education-header">
+                <p>2008 - 2012</p>
+                <div class="h5">BAC Science et Technologie de la Gestion</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <div class="h5">BAC STG option Comptabilités et Finances des Entreprises</div>
+                <p class="category">Lycée Paul-Louis Courrier, Tours, France</p>
+                <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <!--Fin de la section formations-->
+        <!--Carrousel de citations-->
+
+
+
+        <!--Fin du caroussel-->
+        <!--Début de la section contact-->
+        <div class="cc-contact-information">
+        <div class="section" id="contact">
+        <div class="container-fluid">
+          <div class="cc-contact">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card mb-0">
+                  <div class="h2 text-center title title-contact">Contactez-Moi</div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <form action="https://" method="POST">
+                          <div class="p pb-3"><strong>N'hésitez pas à me contacter</strong></div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <div class="input-group"><span class="input-group-addon"><i class="fas fa-user"></i></span>
+                                <input class="form-control" type="text" name="Nom" placeholder="Nom" required="required"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <div class="input-group"><span class="input-group-addon"><i class="fas fa-folder"></i></span>
+                                <input class="form-control" type="text" name="Sujet" placeholder="Sujet" required="required"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <div class="input-group"><span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+                                <input class="form-control" type="email" name="email" placeholder="E-mail" required="required"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <div class="form-group"><span class="input-group-addon"><i class="fas fa-comment-alt"></i></span>
+                                <textarea class="form-control" name="message" placeholder="Votre Message" required="required"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <button class="btn btn-send" type="submit">Envoyer</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-body">
+                        <p class="mb-0"><strong>Adresse </strong></p>
+                        <p class="pb-2">378 Rue de la plaine, France</p>
+                        <p class="mb-0"><strong>Téléphone</strong></p>
+                        <p class="pb-2">06.06.06.06.06</p>
+                        <p class="mb-0"><strong>Email</strong></p>
+                        <p>jonathan@jojo.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <!--Fin de la section contact-->
+        <!--Footer classique-->
+        <footer class="footer">
+          <div class="container text-center">
+            <div class="button-container-bottom">
+              <a class="btn-icon-2 btn-github2" href="https://github.com/JonathanMarandeau" title="Suivez-moi sur GitHub"><i class="fab fa-github-square"></i></a>
+              <a class="btn-icon-2 btn-linkedIn2" href="https://www.linkedin.com/in/jonathan-marandeau-0a9b7715a/" title="Suivez-moi sur LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          <div class="h2 title text-center">Jonathan Marandeau</div>
+          <div class="text-center text-muted">
+            <p>&copy; Jonathan Marandeau CV. All rights reserved.<br>Design - by Jonathan Marandeau</p>
+          </div>
+        </div>
+        </footer>
+    <!--Appel des Script en fin de body-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="scriptprogressbar.js"></script>
+    <script src="scriptcarousel.js"></script>
+  </body>
+</html>
