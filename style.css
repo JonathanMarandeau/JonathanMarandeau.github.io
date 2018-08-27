@@ -1,0 +1,141 @@
+/* Police d'écriture dans tous le body */
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+/*Background image*/
+.profile-page{
+  background-image: url('images/bg_acc.jpg');
+  height: 820px;
+}
+.titleName{
+  color: #ffffff;
+  margin-top: 50px;
+}
+/*Photo de profil */
+.photoMoiProfil{
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 20%;
+  border-color: #04193a;
+  border-style: solid;
+  border-width: 15px;
+}
+/*Boutton embauchez moi et cv */
+/*Couleur de base pour les deux bouttons */
+.btn-lg,.btn{
+  margin-top: 30px;
+  background-color: #04193a;
+}
+/*Boutton embauchez moi*/
+.btn{
+    background-color: #04193a;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #04193a;
+    border-color: #04193a;
+}
+
+.btn-hire, .btn-cv, .btn-send{
+  border-color: #ffffff;
+}
+/* button github et linkedin */
+.btn-round{
+  border-radius: 50%;
+  font-size: 30px;
+  border-color: #ffffff;
+}
+.btn-github:hover{
+  background-color: #24292e;
+  color: #ffffff;
+  border-color: #04193a;
+}
+.btn-linkedIn:hover{
+  background-color: #0077b5;
+  color: #ffffff;
+  border-color: #04193a;
+}
+/*Mise en page de la navbar*/
+.navbar{
+  background-color: #04193a;
+}
+.nav-link{
+  color: #ffffff !important;
+}
+.nav-link:hover{
+  background-color: #ffffff;
+  color: #04193a !important;
+  border-radius: 5%;
+  opacity: 0.7;
+}
+/*Mise en page de la section me*/
+#me{
+  margin: 35px;
+}
+/*Mise en page de la section skills*/
+#skills{
+  margin: 35px;
+}
+/*Mise en page de la section experience*/
+#experience{
+  margin: 35px;
+}
+/*Couleur du background et du texte dans les titres des card*/
+.col-md-3{
+  background-color: #04193a;
+  color: #ffffff;
+}
+/*Mise en page de la section study*/
+#study{
+  margin: 35px;
+}
+/*Mise en page de la section contact*/
+#contact{
+  margin: 35px;
+}
+/*Mise en forme des card avec un box-shadow*/
+.card{
+  box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.6), 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+}
+
+.section{
+  padding-top: 70px;
+}
+
+/*Bars Skills*/
+.progress-bar {
+  background-color: #04193a;
+}
+
+/*carte de paris */
+.cc-contact-information{
+  background-image: url('images/googlemaps_paris.jpg');
+  height: 700px;
+}
+
+/* Liens github,linkedin en bas de page */
+.button-container-bottom{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-icon-2{
+  font-size: 50px;
+  padding: 10px;
+}
+
+.btn-github2{
+  color: #24292e;
+}
+
+.btn-linkedIn2{
+  color: #0077b5;
+}
+
+.title-contact{
+  margin-top: 40px;
+}
